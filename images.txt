@@ -11,6 +11,6 @@
 --platform=linux/arm64 openim/openim-web-front:release-v3.5.1
 --platform=linux/arm64 openim/openim-admin-front:release-v1.7
 
---platform=linux/arm64 opengrok/docker
+opengrok/docker
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
