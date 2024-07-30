@@ -1,16 +1,2 @@
 #支持私库
---platform=linux/arm64 mongo:6.0.2
---platform=linux/arm64 redis:7.0.0
---platform=linux/arm64 bitnami/zookeeper:3.8
---platform=linux/arm64 bitnami/kafka:3.5.1
---platform=linux/arm64 minio/minio:RELEASE.2024-01-11T07-46-16Z
---platform=linux/arm64 quay.io/coreos/etcd:v3.5.13
---platform=linux/arm64 prom/prometheus:v2.45.6
---platform=linux/arm64 prom/alertmanager:v0.27.0
---platform=linux/arm64 grafana/grafana:11.0.1
---platform=linux/arm64 openim/openim-web-front:release-v3.5.1
---platform=linux/arm64 openim/openim-admin-front:release-v1.7
-
-opengrok/docker
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+--platform=linux/arm64 prom/node-exporter:v1.7.0
